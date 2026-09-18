@@ -1,0 +1,38 @@
+{
+  "algorithm": "Adapted ConvNeXt",
+  "dataset": "MNIST",
+  "device": "cuda",
+  "parameters": 36538,
+  "epochs": 3,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "train_size": 10000,
+  "test_size": 2000,
+  "elapsed_seconds": 12.222949599963613,
+  "final_test_accuracy": 0.956,
+  "best_test_accuracy": 0.956,
+  "history": {
+    "train_loss": [
+      1.4387529088973998,
+      0.44024959744215014,
+      0.22110068144798278
+    ],
+    "train_accuracy": [
+      0.4999,
+      0.8808,
+      0.9377
+    ],
+    "test_loss": [
+      0.6514819288253784,
+      0.26007587218284606,
+      0.1578043429851532
+    ],
+    "test_accuracy": [
+      0.801,
+      0.9345,
+      0.956
+    ]
+  }
+}

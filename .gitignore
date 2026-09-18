@@ -1,0 +1,32 @@
+__pycache__/
+.matplotlib/
+.pip-tmp/
+data/
+results_smoke/
+report_render/
+report_render_final/
+report_render_final2/
+report_render_final3/
+*.pyc
+
+# Reports may contain the student's name and student ID.
+*.docx
+*.pdf
+
+# Local secrets and credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
